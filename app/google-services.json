@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "999195381822",
+    "firebase_url": "https://giftsstore-da579.firebaseio.com",
+    "project_id": "giftsstore-da579",
+    "storage_bucket": "giftsstore-da579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999195381822:android:f89eb531ebac197608016f",
+        "android_client_info": {
+          "package_name": "com.example.giftsstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999195381822-393mdscjf435qdsiqgktb56004sbodhc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.giftsstore",
+            "certificate_hash": "bf30452971b5eeb5aaf82fbb7abe7998c02f1d35"
+          }
+        },
+        {
+          "client_id": "999195381822-a0pkannnsmiuu56h0et7ch69379gupe8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRsxOkLTDcxFM0c9MiSannWnlA-PCYvYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999195381822-a0pkannnsmiuu56h0et7ch69379gupe8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

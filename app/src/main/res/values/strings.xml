@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Gifts Store</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">LOG IN</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="menu_desc" />
+    <string name="log_out" />
+    <string name="favorite_exercises" />
+    <string name="all_gifts">All Gifts</string>
+
+
+</resources>
