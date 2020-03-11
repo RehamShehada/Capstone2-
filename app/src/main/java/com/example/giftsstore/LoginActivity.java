@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
         mAuth = FirebaseAuth.getInstance();
-        s= getSharedPreferences("userName", Context.MODE_PRIVATE);
+        s= getSharedPreferences("username", Context.MODE_PRIVATE);
         getSavedUserName();
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
         String Name=name.getText().toString().trim();
         String Pass=password.getText().toString().trim();
         if(TextUtils.isEmpty(Name)||TextUtils.isEmpty(Pass)){
-            Snackbar.make(findViewById(R.id.layout),"please fill the required information", Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(R.id.layout),"@string/msg", Snackbar.LENGTH_LONG).show();
         }
         else{
             mAuth.signInWithEmailAndPassword(Name,Pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -82,7 +82,7 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
     private void getSavedUserName(){
-        String user=s.getString("name",null);
+        String user=s.getString("@string/name",null);
         if (user != null) {
             name.setText(user);
         }

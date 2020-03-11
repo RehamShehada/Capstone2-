@@ -8,6 +8,19 @@
     <string name="log_out" />
     <string name="favorite_exercises" />
     <string name="all_gifts">All Gifts</string>
+    <string name="fav">Favourites</string>
+    <string name="laterBuy">Buy later</string>
+    <string name="Bought">Bought</string>
+    <string name="buy_now">Buy now</string>
+    <string name="buy_later">Buy Later</string>
+    <string name="add_fav">Add to Favourite</string>
+    <string name="msg">please fill the required information</string>
+    <string name="name">Name</string>
+    <string name="user_name">Username</string>
+    <string name="email">E-mail</string>
+    <string name="add_later">Add to Later buy</string>
+    <string name="remove_later">Remove from Later</string>
+
 
 
 </resources>

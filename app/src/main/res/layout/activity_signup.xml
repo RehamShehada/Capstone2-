@@ -48,7 +48,7 @@
                 android:nextFocusDown="@+id/password"
                 android:singleLine="true"
                 android:gravity="center"
-                android:hint="E-mail"
+                android:hint="@string/email"
                 android:inputType="text"
                 android:background="@color/white"
                 android:textColor="@color/colorAccent"/>

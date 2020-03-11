@@ -97,11 +97,11 @@ public class GiftsDetails extends AppCompatActivity {
                     }
                 });
                 if (fav) {
-                    add_later.setText("Add to Later buy");
+                    add_later.setText("@string/add_later");
                     Toast.makeText(GiftsDetails.this,
                             "Removed from Later read", Toast.LENGTH_SHORT).show();
                 } else {
-                    add_later.setText("Remove from Later");
+                    add_later.setText("@string/remove_later");
                     Toast.makeText(GiftsDetails.this,
                             "Added To Later", Toast.LENGTH_SHORT).show();
                 }
@@ -124,7 +124,7 @@ public class GiftsDetails extends AppCompatActivity {
             public void onChanged(Gift exercise) {
                 if (f.getValue() != null) {
                     fav = true;
-                    add_fav.setText("Remove from Later read");
+                    add_fav.setText("Remove from Later buy");
                 } else {
                     fav = false;
                 }
